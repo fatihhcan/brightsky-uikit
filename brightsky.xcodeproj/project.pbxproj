@@ -19,6 +19,7 @@
 		51B9A02C2CD4055C00BCB6BE /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B9A02B2CD4055C00BCB6BE /* TabViewController.swift */; };
 		51E198672CD52F4500E96B0E /* CurrentWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E198662CD52F4500E96B0E /* CurrentWeatherView.swift */; };
 		51E198692CD52F7D00E96B0E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E198682CD52F7D00E96B0E /* SettingsView.swift */; };
+		51E1986B2CD55B4F00E96B0E /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E1986A2CD55B4F00E96B0E /* SettingsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		51B9A02B2CD4055C00BCB6BE /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		51E198662CD52F4500E96B0E /* CurrentWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherView.swift; sourceTree = "<group>"; };
 		51E198682CD52F7D00E96B0E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		51E1986A2CD55B4F00E96B0E /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		51B9A0182CD400E700BCB6BE /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				51E1986A2CD55B4F00E96B0E /* SettingsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				51E198692CD52F7D00E96B0E /* SettingsView.swift in Sources */,
 				51B9A0202CD401BE00BCB6BE /* IAPManager.swift in Sources */,
 				51B9A0072CD3FE7100BCB6BE /* WeatherViewController.swift in Sources */,
+				51E1986B2CD55B4F00E96B0E /* SettingsViewModel.swift in Sources */,
 				51B9A0032CD3FE7100BCB6BE /* AppDelegate.swift in Sources */,
 				51B9A0052CD3FE7100BCB6BE /* SceneDelegate.swift in Sources */,
 			);
